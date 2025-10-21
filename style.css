@@ -1,0 +1,66 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+
+.carte {
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+    background-color: rgb(252, 242, 242);
+    padding: 15px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.entete {
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    background-color: grey;
+    font-size: 10px;
+    color: skyblue;
+}
+
+
+.corps {
+    display: flex;
+    gap: 15px;
+}
+
+ img{
+    width: 120px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.infos p {
+    margin: 5px ;
+    font-size: 15px;
+}
+
+
+.pied {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.signature p {
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+
+
+.annee p {
+    font-weight: bold;
+    color: skyblue;
+    margin: 0;
+}
